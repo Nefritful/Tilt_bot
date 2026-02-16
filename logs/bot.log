@@ -1,0 +1,9 @@
+2026-02-16 15:21:07,154 - tilt - INFO - USER_EVENT chat=shikhovia@kadastr.ru user=None msg_id=None ts=None text='/start'
+2026-02-16 15:21:07,154 - tilt - INFO - BOT_SEND chat=shikhovia@kadastr.ru text='Hello!' kwargs={}
+2026-02-16 15:45:31,757 - tilt - INFO - Stopped by KeyboardInterrupt
+16.02.2026 15:51:10 - tilt - INFO - BOT_SEND chat=shikhovia@kadastr.ru text='Hello!'
+16.02.2026 15:51:16 - tilt - INFO - Stopped by KeyboardInterrupt
+16.02.2026 15:51:50 - tilt - INFO - Bot started. Waiting for events...
+16.02.2026 15:51:53 - tilt - INFO - Stopped by KeyboardInterrupt
+16.02.2026 15:52:07 - tilt - INFO - Bot started. Waiting for events...
+16.02.2026 15:52:16 - tilt - INFO - Stopped by KeyboardInterrupt
