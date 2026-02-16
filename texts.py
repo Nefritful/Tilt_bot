@@ -1,12 +1,16 @@
 # texts.py
 
-TEXT_HELLO = "Hello!"
-TEXT_GENERIC_ERROR = "Произошла ошибка. Я записал детали в лог."
+TEXT_HELLO = "Добро пожаловать в систему."
+TEXT_GENERIC_ERROR = "Произошла ошибка. Попробуйте позже."
+TEXT_MAIN_MENU = "Главное меню:"
 
-# Кнопки (заготовка)
-# ВАЖНО: формат клавиатуры зависит от твоей библиотеки.
-# Я оставляю как “чистые данные”, чтобы удобно было подстроить.
 KEYBOARD_MAIN = [
-    [{"text": "Помощь", "callbackData": "help"}],
-    [{"text": "Статус", "callbackData": "status"}],
+    [
+        {"text": "Заявки", "callbackData": "menu_requests"},
+        {"text": "Мониторинг", "callbackData": "menu_monitoring"}
+    ],
+    [
+        {"text": "Скрипты", "callbackData": "menu_scripts"},
+        {"text": "Настройка", "callbackData": "menu_settings"}
+    ]
 ]
