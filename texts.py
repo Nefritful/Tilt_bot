@@ -1,7 +1,3 @@
-# texts.py
-
-TEXT_HELLO = "Добро пожаловать в систему."
-TEXT_GENERIC_ERROR = "Произошла ошибка. Попробуйте позже."
 TEXT_MAIN_MENU = "Главное меню:"
 
 KEYBOARD_MAIN = [

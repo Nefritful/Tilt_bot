@@ -33,12 +33,18 @@ def log_user_event(event):
         _safe_attr(event, "text"),
     )
 def show_main_menu(chat_id):
+    reply_markup = {
+        "inline_keyboard": texts.KEYBOARD_MAIN
+    }
+
     bot.send_text(
         chat_id=chat_id,
         text=texts.TEXT_MAIN_MENU,
-        inline_keyboard=texts.KEYBOARD_MAIN
+        reply_markup=reply_markup
     )
+
     log.info("MAIN_MENU_SHOWN chat=%s", chat_id)
+
 def message_cb(bot, event):
     log_user_event(event)
 
